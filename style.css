@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* General styles */
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    color: #003366;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #0055a5;
+    padding-bottom: 5px;
+}
+
+article h3 {
+    color: #0055a5;
+    font-size: 1.4em;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+article p {
+    margin: 10px 0;
+    text-indent: 20px;
+    line-height: 1.8;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #003366;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+}
